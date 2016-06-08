@@ -1,0 +1,270 @@
+/*Inserta tu css aqui*/
+* {
+	margin: 0;
+	padding: 0;
+}
+.container {
+	width: 90%;
+}
+.row {
+    margin-right: 0;
+    margin-left: 0;
+}
+a:hover, a:focus {
+	text-decoration: none;
+}
+header {
+	background-color: #009688;
+	height: 100px;
+
+}
+body {
+	background-color: #DFDFDF;
+}
+h5 {
+	margin: 0;
+	margin-bottom: 1%;
+	color: #767373;
+	font-size: 0.9em;
+}
+p {
+	margin-bottom: 0;
+	color: #767373;
+	font-size: 0.9em;
+}
+i {
+	color: #767373;
+	font-size: 1.1em;
+	margin-right: 3%;
+}
+
+.ventana {
+	position: relative;
+	top: -80px;
+}
+/*header1*/
+.contacto {
+	padding: 0;
+}
+.header1 {
+	background-color: #EEEEEE;
+	height: 45px;
+	padding: 2%;
+	border-right: 1px solid #CACACA;
+}
+.circle {
+	border-radius: 50px;
+	width: 32px;
+	height: 30px;
+}
+.header1 i {
+	position: relative;
+	top: 4px;
+}
+/*buscar*/
+.block-buscar {
+	background-color: #fff;
+	padding: 4%;
+}
+.buscador {
+	border: solid 1px  #CACACA;
+	padding: 1%;
+	border-radius: 5px;
+}
+.buscador i {
+	color: #CACACA;
+	font-size: 0.8em;
+	padding: 1%;
+}
+input {
+	border: none;
+	box-shadow: none;
+}
+/*lista*/
+.lista {
+	background-color: #fff;
+	padding: 3.5%;
+	border-top:1px solid #CACACA;
+} 
+
+.f-l {
+	float: left;
+}
+.f-r {
+	float: right;
+}
+.text {
+	padding-left: 13.5%;
+}
+
+.hora{
+	position: relative;
+	top: -36px;
+}
+/*chat*/
+.chat {
+	padding: 0;
+}
+.chat h5 {
+	font-size: 0.8em;
+}
+.header2 {
+	background-color: #EEEEEE;
+	height: 45px;
+	padding: 1%;
+}
+.header2 .text {
+	padding-left: 6.5%;
+}
+.header2 h5 {
+	margin-bottom: 0;
+}
+.header2 i {
+	position: relative;
+	top: -22px;
+	left: 88%;
+}
+/*ventana de chat*/
+.bg-chat {
+	background-color: #EDE9E4;
+	background-image: url("../image/chat-panel-bg.png");
+	height: 492px;
+	padding: 4% 3% 0.5% 3%;
+	margin: none !important;
+}
+
+.contac {
+	background-color: #fff;
+	padding: 1.5% 1% 2.2% 2%; 
+	width: 45%;
+	border-radius: 5px;
+	margin-bottom: 0.5%;
+	box-shadow: 0 1px .5px rgba(0,0,0,.13);
+}
+.andre h5 {
+	color: #A4DBF6;
+}
+.mariana h5 {
+	color: #ECA0CC;
+}
+.papu h5 {
+	color: #79D4B1;
+}
+.aldo h5 {
+	color: #EDD392;
+}
+.contac .hora {
+	position: relative;
+    top: -1px;
+}
+.msg {
+	padding-left: 9%;
+    padding-right: 3%;
+    margin-bottom: 12px;
+    position: relative;
+}
+.msg:after {
+    content: '';
+    display: table;
+    clear: both;
+}
+.respt1 {
+	background-color: #DCF8C6;
+	padding: 6px 7px 8px 9px; 
+	border-radius: 5px;
+	margin-bottom: 0.5%;
+	position: relative;
+	box-shadow: 0 1px .5px rgba(0,0,0,.13);
+	float: right;
+}
+.respt-tex {
+	position: relative;
+	text-align: right;
+}
+
+.respt-tex::after {
+    content:" \00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0";
+    display: inline;
+}
+
+.text-rigth {
+	text-align: right;
+} 
+/*mensaje*/
+.block-mensaje {
+	background-color: #EEEEEE;
+	height: 54px;
+	padding: 1%;
+}
+.block-mensaje .text {
+	padding-left: 6.5%;
+}
+.block-mensaje i {
+	font-size: 1.5em;
+	position: relative;
+	top: -27px;
+	margin-right: 2%
+}
+.block-mensaje .emoticon {
+	font-size: 1.5em;
+	position: relative;
+	top: 4px;
+    margin-left: 1%
+}
+.sms {
+	padding: 1.5% 2%;
+	border-radius: 5px;
+	background-color: #fff;
+	    margin-right: 7%;
+}
+input {
+	border: none;
+	box-shadow: none;
+}
+.scroll {
+	height: 493px;
+	overflow-y:scroll;
+}
+
+::-webkit-scrollbar-track
+{
+	-webkit-box-shadow: inset 0 0 6px transparent ;
+	background-color: #fff;
+}
+
+::-webkit-scrollbar
+{
+	width: 6px;
+	background-color: transparent;
+}
+
+::-webkit-scrollbar-thumb
+{
+	background-color: #CACACA;
+	
+}
+
+.scroll2 {
+	
+	overflow-y:scroll
+}
+
+.scroll2::-webkit-scrollbar-track
+{
+	-webkit-box-shadow: inset 0 0 6px transparent ;
+	background-color: transparent;
+}
+
+.scroll2::-webkit-scrollbar
+{
+	
+	background-color: transparent;
+}
+
+::-webkit-scrollbar-thumb
+{
+	background-color: #CACACA;
+	
+}
+
+
